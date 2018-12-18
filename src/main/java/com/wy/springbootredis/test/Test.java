@@ -22,15 +22,15 @@ public class Test {
     @org.junit.Test
     public void test(){
 
-//        boolean a = redisUtils.set("1", "A");
+        boolean a = redisUtils.set("1", "A");
 
-//        System.out.println(a);
+        System.out.println(a);
 
-        Object o = redisUtils.get("d5481e4a4d544c08b4e6aab5231988fc");
+        Object o = redisUtils.get("1");
 
         System.out.println(o);
 
-//        redisUtils.remove("1");
+        redisUtils.remove("1");
 
     }
 
